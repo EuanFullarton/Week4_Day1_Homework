@@ -1,0 +1,20 @@
+h1 {
+  color: #37383A;
+}
+
+body {
+  background-color: #C0C0C0;
+  color: white;
+}
+
+#play {
+  color:yellow;
+}
+
+#player1 {
+  color: blue;
+}
+
+#player2 {
+  color: red;
+}

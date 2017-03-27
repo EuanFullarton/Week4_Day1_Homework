@@ -3,6 +3,10 @@ require ('sinatra/contrib/all')
 require ('pry-byebug')
 require_relative ('./models/game')
 
+get '/' do
+  erb(:home)
+end
+
 get '/play/:p1/:p2' do
   game = Game.new(params[:p1], params[:p2])
   @winner = game.play()
